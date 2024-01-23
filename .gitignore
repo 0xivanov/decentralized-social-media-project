@@ -1,0 +1,40 @@
+# Compiled Object files, Static and Dynamic libs (Shared Objects)
+*.o
+*.a
+*.so
+
+# Folders
+_obj/
+_test/
+examples/
+dist/
+vendor/
+
+# Compiled Go files
+*.test
+*.prof
+
+# Binary files
+*.exe
+*.out
+*.test
+*.prof
+
+# Local binary files
+*.exe
+*.out
+
+# Dependency directories
+vendor/
+
+# Output of the go coverage tool, specifically when used with LiteIDE
+*.out
+
+# Ignore any plain text credentials or secrets
+*.env
+
+# Endorsements
+*.sig
+
+# Visual Studio Code settings
+.vscode/
